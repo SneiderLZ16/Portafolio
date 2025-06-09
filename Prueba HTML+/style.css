@@ -410,3 +410,61 @@ section {
 #formulario-contacto button:hover {
     background-color: #555;
 }
+
+
+/* Estilo específico para el primer div de introducción de proyectos */
+.intro-proyectos {
+    background-color: #ffffff;
+    border: 2px dashed #444;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1s ease-in;
+}
+
+.intro-proyectos p {
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.intro-proyectos .imagenes-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.intro-proyectos img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.intro-proyectos img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .intro-proyectos {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .intro-proyectos p {
+        font-size: 1rem;
+    }
+
+    .intro-proyectos img {
+        width: 90%;
+    }
+}
