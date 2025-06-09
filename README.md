@@ -1,46 +1,45 @@
 # Portafolio
 
-📁 Portafolio Web - Kevin Londoño
-Este es un sitio web personal desarrollado con HTML y CSS donde presento quién soy, mis proyectos, habilidades y formas de contacto. Es un portafolio visual y moderno, optimizado para dispositivos móviles (Responsive).
+📁 PWeb Portfolio - Kevin Londoño
+This is a personal website developed with HTML and CSS where I present who I am, my projects, skills, and contact information. It's a visual and modern portfolio, optimized for mobile devices (responsive).
 
 ---
 
-🌐 Secciones del sitio
-Inicio: Breve presentación personal e imágenes destacadas.
-Acerca de mí: Historia, intereses personales y habilidades técnicas.
-Mis Proyectos: Enlaces a proyectos alojados en GitHub.
-Contáctenos: Datos de contacto y formulario para envío de mensajes.
+🌐 Site Sections
+Home: Brief introduction and featured images.
+About Me: History, personal interests, and technical skills.
+My Projects: Links to projects hosted on GitHub.
+Contact Us: Contact information and a form for submitting a message.
 
 ---
 
-🧑‍💻 Tecnologías utilizadas
+🧑‍💻 TTechnologies used
 HTML5
-CSS3 (con animaciones, gradientes y responsive design)
+CSS3 (with animations, gradients, and responsive design)
 
 ---
 
 📱 Responsive Design
-El diseño se adapta a pantallas pequeñas (teléfonos) gracias a media queries. Elementos como el menú, las imágenes y el formulario cambian su comportamiento en dispositivos móviles para mejor experiencia.
+The design adapts to small screens (phones) thanks to media queries. Elements such as the menu, images, and form change their behavior on mobile devices for a better experience.
 
 ---
 
-📬 Formulario de contacto
-El formulario permite a los visitantes enviar un mensaje directamente a tu correo:
+📬 Contact Form
+This form allows visitors to send a message directly to your email:
 
-Nombre
-Correo electrónico
-Mensaje
-
-Se utiliza mailto: como acción del formulario, por lo que abrirá el cliente de correo del usuario.
+Name
+Email
+Message
+Mailto: is used as the form action, so it will open the user's email client.
 
 ---
 
-📄 Archivos importantes
-Index.html: Página principal.
-acerca.html: Información personal y habilidades.
-Proyectos.html: Lista de proyectos.
-contacto.html: Datos de contacto + formulario.
-style.css: Estilos generales del sitio.
+📄 Important Files
+Index.html: Home page.
+about.html: Personal information and skills.
+Projects.html: List of projects.
+contact.html: Contact information + form.
+style.css: General site styles.
 
 ---
 
