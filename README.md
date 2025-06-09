@@ -47,5 +47,5 @@ style.css: Estilos generales del sitio.
 📌 Autor
 Kevin Londoño
 Instagram: @sneiderlz
-WhatsApp: Contáctame
+WhatsApp: [Contáctame](https://wa.me/+573226486866)
 Correo: sneiderlondono0216@gmail.com
