@@ -359,6 +359,12 @@ section {
     color: #000;
 }
 
+.botones-3d {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 
 .btn-imgs{
     width: 100px;
