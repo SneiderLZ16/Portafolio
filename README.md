@@ -1,6 +1,6 @@
-# Portafolio
+# Portfolio
 
-📁 PWeb Portfolio - Kevin Londoño
+📁 Web Portfolio - Kevin Londoño
 This is a personal website developed with HTML and CSS where I present who I am, my projects, skills, and contact information. It's a visual and modern portfolio, optimized for mobile devices (responsive).
 
 ---
