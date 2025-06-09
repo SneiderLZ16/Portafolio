@@ -293,3 +293,75 @@ section {
         text-shadow: none;
     }
 }
+
+.botones-3d{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn-lenguaje {
+    position: relative;
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 6px #aaa, 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    min-height: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-lenguaje:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-lenguaje {
+    display: none;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.btn-lenguaje.activo .info-lenguaje {
+    display: block;
+}
+
+/* Colores personalizados */
+
+.btn-lenguaje.html {
+    background: linear-gradient(135deg, #ff5722, #ff8a50);
+    color: white;
+}
+
+.btn-lenguaje.css {
+    background: linear-gradient(135deg, #2196f3, #64b5f6);
+    color: white;
+}
+
+.btn-lenguaje.js {
+    background: linear-gradient(135deg, #ffeb3b, #ffc107);
+    color: #000;
+}
+.btn-lenguaje .python{
+    background-color: linear-gradient(135deg #008000, #00FF00 );
+    color: #000;
+}
+
+
+.btn-imgs{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333;
+    align-items: center;
+}
